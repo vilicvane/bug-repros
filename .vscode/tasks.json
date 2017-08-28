@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "taskName": "build",
+      "type": "shell",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "command": "cat task-output.txt",
+      "problemMatcher": {
+        "owner": "typescript",
+        "applyTo": "allDocuments",
+        "fileLocation": "relative",
+        "pattern": {
+          "regexp": "^\\[biu-problem:typescript:([^;]*);([^;]*);([^;]*);(.*)\\]$",
+          "severity": 1,
+          "file": 2,
+          "location": 3,
+          "message": 4
+        }
+      }
+    }
+  ]
+}
