@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "commonjs",
+    "outDir": "../../bld/program"
+  },
+  "references": [{"path": "../../../shared/src/library"}]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "typescript-32028",
+  "private": true,
+  "workspaces": [
+    "shared",
+    "app"
+  ],
+  "devDependencies": {
+    "typescript": "^3.8.0-dev.20191023"
+  }
+}
