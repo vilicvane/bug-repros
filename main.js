@@ -10,6 +10,8 @@ function createWindow() {
     },
   });
 
+  win.webContents.openDevTools();
+
   win.setIgnoreMouseEvents(true, {
     forward: true,
   });

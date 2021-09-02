@@ -28,5 +28,11 @@
   </head>
   <body>
     <div class="box"></div>
+    <script>
+      let box = document.querySelector(".box");
+
+      box.addEventListener("mouseenter", () => console.log("enter"));
+      box.addEventListener("mouseleave", () => console.log("leave"));
+    </script>
   </body>
 </html>
