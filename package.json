@@ -1,0 +1,11 @@
+{
+  "name": "electron-mouse-forward-issue",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "devDependencies": {
+    "electron": "^14.0.0"
+  }
+}
