@@ -1,0 +1,10 @@
+{
+  "name": "packages",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "workspaces": [
+    "nested"
+  ]
+}
