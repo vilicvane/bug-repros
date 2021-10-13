@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "module": "nodenext",
-    "importHelpers": true
+    "importHelpers": true,
+    "noEmit": true
   }
 }

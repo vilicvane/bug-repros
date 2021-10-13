@@ -1,10 +1,10 @@
 {
   "name": "packages",
   "private": true,
+  "dependencies": {
+    "tslib": "^2.3.1"
+  },
   "devDependencies": {
     "typescript": "4.5.0-beta"
-  },
-  "workspaces": [
-    "packages/nested"
-  ]
+  }
 }
