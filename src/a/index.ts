@@ -1,7 +1,7 @@
-import * as x from "x-value";
+export declare const timestampSymbol: unique symbol;
 
-export const Timestamp = x.number.refine<x.Nominal<"timestamp">>(() => true);
+export declare const Timestamp: {
+  [TKey in typeof timestampSymbol]: true;
+};
 
-export type Timestamp = x.TypeOf<typeof Timestamp>;
-
-export declare function now(): Timestamp;
+export declare function now(): typeof Timestamp;
